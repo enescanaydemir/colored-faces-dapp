@@ -1,0 +1,40 @@
+{
+  "name": "colored-faces-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepack": "publish-util-prepack",
+    "postpack": "publish-util-postpack"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.6",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "embla-carousel-react": "^7.0.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.1",
+    "next": "12.2.5",
+    "publish-util": "^2.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "^1.3.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
